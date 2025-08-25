@@ -1,4 +1,3 @@
-// Define a estrutura de um arquivo, incluindo metadados
 interface File {
   content: string;
   permissions: string;

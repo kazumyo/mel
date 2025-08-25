@@ -1,3 +1,5 @@
+import valentinePng from "/images/valentine.png";
+
 type ImageSize = {
   width: number;
   height: number;
@@ -123,7 +125,7 @@ export default class ASCIIHeart {
     }
 
     const image = new Image();
-    image.src = "./public/images/valentine.png";
+    image.src = valentinePng;
     image.crossOrigin = "Anonymous";
 
     image.onload = () => {
