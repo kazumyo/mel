@@ -1,0 +1,8 @@
+#matrix {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Courier New", monospace;
+  background: black;
+  color: #00ff00;
+  position: fixed;
+}

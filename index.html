@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Love</title>
+  </head>
+  <body>
+    <div class="main">
+      <canvas id="matrix" width="1920" height="1080"></canvas>
+      <div class="terminal" id="terminal">
+        <div class="terminal-top-bar" id="top-bar">           
+          <div class="terminal-buttons">
+            <span class="terminal-close"></span>
+            <span class="terminal-minimize"></span>
+            <span class="terminal-zoom"></span>
+          </div>
+          <div class="terminal-title">mel@bash</div>
+        </div>
+        
+        <div class="terminal-body">
+          <div class="terminal-output" id="terminal-output"></div>
+          <div class="terminal-input-line">
+            <span id="terminal-prompt" class="terminal-prompt"></span>
+            <input type="text" id="terminal-input" autofocus class="terminal-input" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+          </div>
+          <div class="output-after-input"></div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
